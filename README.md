@@ -2,6 +2,8 @@ This is a Crossword Puzzle !!
 (by html,css,javascript,mongodb and express)
 
 A crossword puzzle is a word game that typically consists of a grid of squares, with blank spaces to be filled in with letters. Each square is part of both an "across" word and a "down" word, and the two intersect at a letter. The player must use the given clues to figure out the words that fit into the grid, both across and down, based on the number of letters and the intersecting letters. The goal is to fill in the entire grid with words that fit together correctly. Crossword puzzles are a popular form of entertainment and mental exercise, often found in newspapers, magazines, and online.
+![Annotation 2023-04-19 191956](https://user-images.githubusercontent.com/122162695/233100405-a579321b-1b81-4023-94df-9deb76f2db18.jpg)
+
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 This PUZZLE contains 
 1) A interactive grid that is that has some blank white spaces and black squares.
