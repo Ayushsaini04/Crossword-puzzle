@@ -8,6 +8,9 @@ A crossword puzzle is a word game that typically consists of a grid of squares, 
 This PUZZLE contains 
 1) A interactive grid that is that has some blank white spaces and black squares.
 2) CLUES are given in the right side of the PUZZLE.
+CLUES
+![Annotation 2023-04-19 194209](https://user-images.githubusercontent.com/122162695/233102426-2d70ef96-1f40-413a-aa77-c68c10df9131.jpg)
+
 3) Player has to fill answers by using CLUES.
 4) Player can change the difficulty level.
 5) Puzzle having a option of "REVEAL" that will fill all answers automatically
