@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Crossword Generator</title>
+  </head>
+  <body>
+    <div class="modal"><h2>Generating new crossword...</h2></div>
+    <img class="background" src="https://images.pexels.com/photos/1670977/pexels-photo-1670977.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="background" />
+    <br />
+    <br />
+
+    <br />
+    <div class="app">
+      <div class="header">
+        <div class="logo">
+          <img src="data:image/png;base64,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" alt="Logo">
+        </div>
+        <h1>
+          <span class="title-word">Crossword Puzzle</span>
+        </h1>
+        <button id="login-btn">Login</button>
+      </div>
+      <div class="content-container">
+        <div class="table-container">
+          <div class="controls">
+            <div class="diff-select">
+              <label id="diff-label" for="difficulty">Difficulty Level</label>
+              <select
+                name="difficulty"
+                id="difficulty"
+                class="difficulty-setting"
+                size="0"
+              >
+                <option value="0">Normal</option>
+                <option value="1">Expert</option>
+              </select>
+            </div>
+            <div class="buttons">
+              <button class="reveal">Reveal</button
+              ><button class="new">New</button>
+            </div>
+          </div>
+          <table>
+            <tr id="0">
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr id="1">
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr id="2">
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr id="3">
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr id="4">
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr id="5">
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr id="6">
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr id="7">
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr id="8">
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr id="9">
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+          </table>
+        </div>
+        <br />
+        <br />
+        <div class="message">
+          <h2>
+            Congratulations, you have completed the crossword! Click 'New' or
+            refresh page to generate a new crossword.
+          </h2>
+        </div>
+        <div class="container">
+          <div class="across-card"></div>
+          <div class="down-card"></div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-container example-container">
+      <p class="footer-content example-desc" style="color: #fcfafa;">
+        This is an elitmus project application.
+      </p>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+  document.getElementById("login-btn").addEventListener("click", function() {
+    window.location.href = "login.html";
+  });
+});
+    </script>
+    <script src="./refactoredIndex.js"></script>
+  </body>
+</html>
