@@ -11,8 +11,8 @@ This PUZZLE contains
 5) Puzzle having a option of "REVEAL" that will fill all answers automatically
 6) Puzzle also having a "New" button by which new puzzle will generate.
 
-Player have to login ------> via ------> a LOGIN BUTTON given on right side of navigation bar
------------------------------- OR ---------------------------------------------------------------------------------------------------------------------------------------
+Player have to login a LOGIN BUTTON given on right side of navigation bar
+--- OR ---
 can register himself/herself
 
 This puzzle site has mongodb as database to provide the better authenication i used express js, .env file and encryption.
