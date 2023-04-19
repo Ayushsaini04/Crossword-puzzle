@@ -14,8 +14,12 @@ This PUZZLE contains
 6) Puzzle also having a "New" button by which new puzzle will generate.
 
 Player have to login a LOGIN BUTTON given on right side of navigation bar
+![Annotation 2023-04-19 193654](https://user-images.githubusercontent.com/122162695/233101030-bd8e0c65-0ff4-4e6e-99d8-56d9eaee4774.jpg)
+
 --- OR ---
 can register himself/herself
+![Annotation 2023-04-19 193927](https://user-images.githubusercontent.com/122162695/233101599-ec528a7c-1747-4be1-90f8-5cba2d58d213.jpg)
+
 
 This puzzle site has mongodb as database to provide the better authenication i used express js, .env file and encryption.
 
