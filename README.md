@@ -28,4 +28,6 @@ This puzzle site has mongodb as database to provide the better authenication i u
 
 Site has Admin Dashboard to for admin to check the user coming to his/her site.
 
+Thank you for visiting!
+
 
